@@ -4,7 +4,7 @@
 
 **JGovCCC-PDL** (*Japanese Government Contract Clause Corpus based on Public Data License*) is a Japanese Legal corpus for clause-type classification in public procurement contracts.
 
-The corpus contains clauses extracted from publicly available standard contract templates, terms and conditions, general conditions, and related procurement documents published by Japanese national and local public institutions. Each clause is annotated with a two-level label hierarchy: a fine-grained clause type (`label_lv2`, 50 classes) and a coarse category (`label_lv1`, 9 classes).
+The corpus contains clauses extracted from publicly available standard contract templates, terms and conditions, general conditions, and related procurement documents published by Japanese national and local public institutions as of January 2026. Each clause is annotated with a two-level label hierarchy: a fine-grained clause type (`label_lv2`, 50 classes) and a coarse category (`label_lv1`, 9 classes).
 
 This corpus is intended to support research on Japanese contract-oriented Legal NLP.
 
@@ -62,7 +62,7 @@ The corpus is provided for research on Legal NLP and contract analysis. It is no
 
 ## License
 
-The source documents were selected from materials released under the Japanese Public Data License Version 1.0 or comparable terms that permit reproduction, public transmission, and adaptation with appropriate attribution.
+The source documents were selected from materials released under terms equivalent to CC BY 4.0, such as the Japanese Public Data License Version 1.0 or comparable terms that permit reproduction, public transmission, and adaptation with appropriate attribution. Each line in this corpus is accompanied by information indicating its source.
 
 This corpus is released under the Apache License 2.0.
 
@@ -74,7 +74,7 @@ If you use this corpus, please cite the paper below.
 @inproceedings{doi_yairi_2026_jgovccc_pdl,
   title     = {JGovCCC-PDL: Japanese Government Contract Clause Corpus based on Public Data License},
   author    = {Doi, Nobushige and Yairi, Takehisa},
-  booktitle = {The 1st AI & Open Government (AIOG) Workshop},
+  booktitle = {ICAIL 2026 Workshop on Artificial Intelligence and Open Government},
   year      = {2026},
   address   = {Singapore, Singapore}
 }
@@ -88,7 +88,7 @@ If you use this corpus, please cite the paper below.
 
 **JGovCCC-PDL**（*Japanese Government Contract Clause Corpus based on Public Data License*）は、公共調達契約における条項類型分類のための日本語の法ドメインに関するコーパスです。
 
-本コーパスには、日本の政府および地方公共団体が公開している標準契約書、約款、契約一般条件、公共調達関連文書から抽出した条項が含まれています。各条項には、細分類の条項タイプ（`label_lv2`、50クラス）と粗分類カテゴリ（`label_lv1`、9クラス）からなる2階層のラベルが付与されています。
+本コーパスには、2026年1月までに日本の政府および地方公共団体により公開された、標準契約書、約款、契約一般条件、公共調達関連文書から抽出した条項が含まれています。各条項には、細分類の条項タイプ（`label_lv2`、50クラス）と粗分類カテゴリ（`label_lv1`、9クラス）からなる2階層のラベルが付与されています。
 
 本コーパスは、日本語契約文書を対象とする、法ドメインの自然言語処理に関する研究を支援することを目的としています。
 
@@ -146,7 +146,7 @@ JGovCCC-PDLは、日本語による、公共調達契約に関するベンチマ
 
 ## ライセンス
 
-出典文書は、日本の「公共データ利用規約（第1.0版）」または類似する規約に基づき、適切な出典表示を条件として複製、公衆送信、翻案を認める同等の条件で公開された資料から選定されています。
+出典文書は、CC BY 4.0に相当する、日本の「公共データ利用規約（第1.0版）」または類似する規約に基づき、適切な出典表示を条件として複製、公衆送信、翻案を認める同等の条件で公開された資料から選定されています。本コーパスの各行には、それぞれの出典を示す情報が付与されています。
 
 本コーパスはApache License 2.0で公開いたします。
 
@@ -158,7 +158,7 @@ JGovCCC-PDLは、日本語による、公共調達契約に関するベンチマ
 @inproceedings{doi_yairi_2026_jgovccc_pdl,
   title     = {JGovCCC-PDL: Japanese Government Contract Clause Corpus based on Public Data License},
   author    = {Doi, Nobushige and Yairi, Takehisa},
-  booktitle = {The 1st AI & Open Government (AIOG) Workshop},
+  booktitle = {ICAIL 2026 Workshop on Artificial Intelligence and Open Government},
   year      = {2026},
   address   = {Singapore, Singapore}
 }
